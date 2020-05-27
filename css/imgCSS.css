@@ -1,0 +1,225 @@
+.e_coun_list1{
+	background-image:url(../img/country1.jpg);
+	opacity: 0.5;
+	background-position: center;
+	left: 0;
+}
+.e_coun_img1{ background:rgba(0,0,0,0.5);}
+.e_coun_list2{
+	background-image: url(../img/country2.jpg);
+	background-position: center;
+	opacity: 0.5;
+	left: 20%;
+}
+.e_coun_list3{
+	background-image: url(../img/country3.jpg);
+	background-position: center;
+	opacity: 0.5;
+	left: 40%;
+}
+.e_coun_list4{
+	background-image: url(../img/country4.jpg);
+	background-position: center;
+	opacity: 0.5;
+	left: 60%;
+}
+.e_coun_list5{
+	background-image: url(../img/country5.jpg);
+	background-position: center;
+	opacity: 0.5;
+	left: 80%;
+}
+.e_coun_list6{
+	background-image: url(../img/country6.jpg);
+	background-position: center;
+	opacity: 0.5;
+	left: 100%;
+}
+.e_Nlist_img1{
+	background-image: url(../img/Tnews1.png);
+	background-size: cover;
+}
+#e_NLR2 .e_Nlist_img1{
+	background-image: url(../img/mod1.jpeg);
+	background-size: cover;
+}
+#e_NLR2 .e_Nlist_img2{
+	background-image: url(../img/mod2.jpg);
+	background-size: cover;
+}
+#e_NLR3 .e_Nlist_img1{
+	background-image: url(../img/game1.png);
+	background-size: cover;
+}
+.e_Nlist_img2{
+	background-image: url(../img/Tnews2.png);
+	background-size: cover;
+}
+.e_Nlist_img3{
+	background-image: url(../img/Tnews3.png);
+	background-size: cover;
+}
+.e_Nlist_img4{
+	background-image: url(../img/Tnews4.png);
+	background-size: cover;
+}
+@keyframes WLItext{
+	0%{bottom: -30px;}
+	100%{bottom: 0px;}
+}
+@keyframes NLIM{
+	100%{
+		border-left: 10px solid #1B6D85;
+		padding-left: 15%;
+		color: #000000;
+	}
+}
+@keyframes HWT1{
+		0%{bottom: 0px;}
+		9%{bottom: 0px;}
+		18%{bottom: 53px;}
+		90%{bottom: 53px;}
+		100%{bottom: 0px;}
+}
+@keyframes HWT2{
+		0%{bottom: -53px;}
+		9%{bottom: -53px;}
+		18%{bottom: 0px;}
+		27%{bottom: 0px;}
+		36%{bottom: 53px;}
+		100%{bottom: 53px;}
+}
+@keyframes HWT3{
+		0%{bottom: -106px;}
+		9%{bottom: -106px;}
+		27%{bottom: -53px;}
+		36%{bottom: 0px;}
+		45%{bottom: 0px;}
+		54%{bottom: 53px;}
+		100%{bottom: 53px;}
+}
+@keyframes HWT4{
+		0%{bottom: -159px;}
+		18%{bottom: -159px;}
+		27%{bottom: -106px;}
+		36%{bottom: -53px;}
+		45%{bottom: -53px;}
+		54%{bottom: 0px;}
+		63%{bottom: 0px;}
+		72%{bottom: 53px;}
+		100%{bottom: 53px;}
+}
+@keyframes HWT5{
+		0%{bottom: -212px;}
+		18%{bottom: -212px;}
+		27%{bottom: -159px;}
+		36%{bottom: -106px;}
+		63%{bottom: -53px;}
+		72%{bottom: 0px;}
+		81%{bottom: 0px;}
+		90%{bottom: 53px;}
+		100%{bottom: 53px;}
+}
+@keyframes CTshow{
+	100%{
+		top: 86%;
+	}
+}
+@keyframes NLIT{
+	100%{
+		top: 60%;
+	}
+}
+@keyframes NLRshow{
+	0%{
+		opacity: 0.3;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes myfirst{
+		0%{bottom: 0px;}
+		100%{bottom: -60px;}
+}
+@keyframes GVLTitshow{
+	0%{top: -21px;}
+	100%{top: 0;}
+}
+@keyframes GVLTxtshow{
+	from{bottom: -21px;}
+	to{bottom: 5px;}
+}
+@keyframes GVLbgnone{
+	100%{opacity: 0;}
+}
+
+
+@keyframes Setleft45{
+	from{
+		position: absolute;
+		transform: rotateY(0) translateX(0) translateZ(0);
+		left: 25%;
+	}
+	to{
+		position: absolute;
+		transform: rotateY(30deg) translateZ(-100px) scale(0.6);
+		left: 0%;
+	}
+}
+@keyframes SetFcen{
+	from{
+		position: absolute;
+		transform: rotateY(-30deg) translateZ(-100px) scale(.6);
+		right: 0%;
+	}
+	to{
+		position: absolute;
+		transform: rotateY(0) translateX(0) translateZ(0);
+		left: 25%;
+	}
+}
+@keyframes Setright45{
+	from{
+		position: absolute;
+		transform: rotateY(0) translateX(0) translateZ(0) scale(.6);
+		z-index: -1;
+		left: 25%;opacity: 0;
+	}
+	to{
+		position: absolute;
+		transform: rotateY(-30deg) translateZ(-100px) scale(.6);
+		right: 0%;opacity: 1;
+	}
+}
+@keyframes SetBcen{
+	from{
+		position: absolute;
+		transform: rotateY(30deg) translateZ(-100px) scale(0.6);
+		left: 0%;opacity: 1;
+	}
+	to{
+		position: absolute;
+		transform: rotateY(0) translateX(0) translateZ(0) scale(.6);
+		z-index: -1;
+		left: 25%;opacity: 0;
+	}
+}
+
+/*js换游戏照片的类*/
+.setGIleft45{
+	animation: Setleft45 0.8s;
+	animation-fill-mode: forwards;
+}
+.setGIFcen{
+	animation: SetFcen 0.8s;
+	animation-fill-mode: forwards;
+}
+.setGIright45{
+	animation: Setright45 0.8s;
+	animation-fill-mode: forwards;
+}
+.setGIBcen{
+	animation: SetBcen 0.8s;
+	animation-fill-mode: forwards;
+}
